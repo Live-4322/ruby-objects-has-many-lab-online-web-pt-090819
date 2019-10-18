@@ -11,3 +11,13 @@ class Song
   end
 end 
 
+ let!(:adele) { Artist.new("Adele") } 
+
+
+    describe "#new" do 	  describe "#new" do 
+      it "is initialized with a name" do 	    it "is initialized with a name" do 
+        expect{Artist.new("Beyonce")}.to_not raise_error	      expect{Artist.new("Beyonce")}.to_not raise_error
+      end	    
+    end
+    
+    
