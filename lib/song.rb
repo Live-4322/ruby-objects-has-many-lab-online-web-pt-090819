@@ -22,5 +22,8 @@ end
     
     it "is initialized with an empty collection of songs" do 
         expect(adele.instance_variable_get(:@songs)).to match([])	      expect(adele.instance_variable_get(:@songs)).to match([])
-        
+    end
+  end
+  
+  
     
